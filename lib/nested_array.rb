@@ -35,7 +35,8 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  # Given any matrix (array of arrays), a row index and a column index,
+  matrix[row][column]= "Lemons"
+  new_value = matrix[row][column]
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
