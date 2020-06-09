@@ -36,6 +36,6 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   matrix[row][column] = "Lemons"
-  new_value = matrix[row][colum]
+  new_value = matrix[row][column]
   new_value
 end
