@@ -26,7 +26,7 @@ end
 def sorted_matrix
   storage = [
     CONVENTIONAL_PRODUCE.sort,
-    ORGANIC_PRODUCE.sort    
+    ORGANIC_PRODUCE.sort
   ]
 end
 
